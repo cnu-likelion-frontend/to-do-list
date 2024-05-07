@@ -1,8 +1,8 @@
 import "./TodoList.css";
-import To_Do from "src\component\To_DO.js";
-import Input from "src\component\Input.js";
-import List from "src\component\List.js";
-import Reorder from "src\component\Reorder.js";
+import To_Do from "srccomponentTo_DO.js";
+import Input from "srccomponentInput.js";
+import List from "srccomponentList.js";
+import Reorder from "srccomponentReorder.js";
 
 /*const mockTodo = [
   {
@@ -22,10 +22,8 @@ import Reorder from "src\component\Reorder.js";
   },
 ];b*/
 
-
-
 function TodoList() {
-/*const [todo, seTodo] = useState([]); 
+  /*const [todo, seTodo] = useState([]); 
 b*/
   return (
     <div className="TodoList">

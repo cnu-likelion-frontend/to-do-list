@@ -1,8 +1,8 @@
 import "./TodoList.css";
-import To_Do from "src\component\To_DO.js";
-import Input from "src\component\Input.js";
-import List from "src\component\List.js";
-import Reorder from "src\component\Reorder.js";
+import To_Do from "./component/To_DO.js";
+import Input from "./component/Input.js";
+import List from "./component/List.js";
+import Reorder from "./component/Reorder.js";
 
 /*const mockTodo = [
   {

@@ -1,0 +1,32 @@
+.ListItem {
+  display: inline-block;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+  }
+  
+  .ListItem .checkbox_col {
+    width: 20px;
+  }
+  
+  .ListItem .title_col {
+    flex: 1;
+  }
+
+  .ListItem[type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid #999;
+    appearance: none;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .ListItem[type="checkbox"]:checked {
+    background: #32abe7;
+    border: none;
+  }
+  

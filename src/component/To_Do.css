@@ -1,0 +1,9 @@
+.To_Do {
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
